@@ -1,0 +1,38 @@
+name: segment_any
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - mkl
+  - mkl-service
+  - pyglfw
+  - pre-commit
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - cython
+  - pylint
+  - pytorch=2.0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  - pycocotools
+  - onnx
+  - onnxruntime
+  - pip
+  - pip:
+      - pyyaml
+      - fastparquet
+      - pytorch-lightning
+      - tensorboard
+      - torch-tb-profiler
+      - torchmetrics
+      - yapf
+      - opencv-python-headless
